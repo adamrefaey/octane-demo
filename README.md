@@ -2,12 +2,6 @@
 
 ### Demo app running on Octane server with Swoole using Sail
 
-## Contents table
-
--   [Requirements](#requirements)
--   [Installation](#installation)
--   [Usage](#usage)
-
 ## Requirements
 
 Docker and Docker Compose.
