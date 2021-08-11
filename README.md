@@ -9,6 +9,14 @@ Docker and Docker Compose.
 ## Installation
 
 ```bash
+docker run --rm \
+	-v $(pwd):/opt \
+	-w /opt \
+    laravelsail/php80-composer:latest \
+    bash -c “composer install”
+```
+
+```bash
 ./vendor/bin/sail build --no-cache
 ```
 
